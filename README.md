@@ -1,19 +1,19 @@
 Usage Example:
 
- //Requiring files 
-    meat = require('./nodejs-meat');
+ //Required files 
+ meat = require('./nodejs-meat');
 
-    //Declaring variables  
-    var meat, bones, food;
+//Declaring variables  
+var meat, bones, food;
 
-    //Add Bones
-    bones = "<body> My name is {name} </body>";
+//Add Bones
+bones = "<body> My name is {name} </body>";
 
-    //Add Food
-    food = { name : "Clint Eastwood"};
+//Add Food
+food = { firstName : "Clint", lastName : "Eastwood"};
 
-     //Calling replacement function
-     meat = meat.process(bones,food);
+//Calling replacement function
+meat = meat.process(bones,food);
 
-     //Display results
-     console.log(meat);
+//Display results
+console.log(meat);
