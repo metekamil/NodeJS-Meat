@@ -14,7 +14,7 @@ NodeJS Meat
 var meat, bones, food;
 
 **Add Bones**  
-bones = "<body> My name is {firstName} {lastName} </body>";
+bones ="<body> My name is {firstName} {lastName} </body>";
 
 **Add Food**   
 food = { firstName : "Clint", lastName : "Eastwood"};
@@ -26,7 +26,7 @@ meat = meat.process(bones,food);
 console.log(meat);
 
 ## Bones  
-bones = "<body> My name is {firstName} {lastName} </body>";
+bones ="<body> My name is {firstName} {lastName} </body>";
 
 ## Food   
 food = { 
