@@ -2,7 +2,7 @@
   "author": "mete kamil",
   "name": "nodejs-meat",
   "description": "NodeJS html template engine.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "repository": {
     "url": ""
   },

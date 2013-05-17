@@ -1,6 +1,19 @@
-exports.test = function(text, vala, valb){
-    function out(val){
-        return text.replace(vala,valb);
+
+//Process bones and fat
+exports.process = function(bones, food){
+    
+
+    function out(html, data){
+         
+
+		for(var attributename in data){
+		     
+		    html = html.replace("{" + attributename + "}",data[attributename]);
+		}
+
+        return html;
+    
+
     }
-    return out(vala,valb);
-}
+    return out(bones,food);
+};

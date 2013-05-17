@@ -1,6 +1,8 @@
-Usage Example:
+//main.js
 
- //Requiring files 
+(function() {
+
+    //Requiring files 
     meat = require('./nodejs-meat');
 
     //Declaring variables  
@@ -17,3 +19,7 @@ Usage Example:
 
      //Display results
      console.log(meat);
+
+    
+
+}).call(this)
