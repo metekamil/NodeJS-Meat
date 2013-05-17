@@ -9,10 +9,10 @@
     var meat, bones, food;
 
     //Add Bones
-    bones = "<body> My name is {name} </body>";
+    bones = "<body> My name is {firstName} {lastName} </body>";
 
     //Add Food
-    food = { name : "Clint Eastwood"};
+    food = { firstName : "Clint", lastName : "Eastwood"};
 
      //Calling replacement function
      meat = meat.process(bones,food);

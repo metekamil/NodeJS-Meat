@@ -7,7 +7,7 @@ Usage Example:
 var meat, bones, food;
 
 //Add Bones
-bones = "<body> My name is {name} </body>";
+bones = "<body> My name is {firstName} {lastName} </body>";
 
 //Add Food
 food = { firstName : "Clint", lastName : "Eastwood"};
