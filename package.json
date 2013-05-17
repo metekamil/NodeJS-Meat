@@ -2,13 +2,13 @@
   "author": "mete kamil",
   "name": "nodejs-meat",
   "description": "NodeJS html template engine.",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "repository": {
     "url": ""
   },
   "main": "./lib/main",
   "bin": {
-    "NodeJS-Meat": "./bin/NodeJS-Meat"
+    "nodejs-meat": "./bin/nodejs-meat.js"
   },
   "dependencies": {},
   "devDependencies": {},
