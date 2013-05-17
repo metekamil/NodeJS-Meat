@@ -21,7 +21,7 @@ meat = meat.process(bones,food);
 **Display results**   
 console.log(meat);
 
-## Bones   
+## Bones  
 bones = "<body> My name is {firstName} {lastName} </body>";
 
 ## Food   
