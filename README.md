@@ -1,6 +1,10 @@
 NodeJS Meat
 ===========
 
+## Installation
+
+**npm install nodejs-meat  
+  
 ## Usage Example:
 
  **Required files**  
