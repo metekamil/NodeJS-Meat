@@ -3,41 +3,34 @@ NodeJS Meat
 
 ## Usage Example:
 
- **Required files**
-
+ **Required files**  
  meat = require('./nodejs-meat');
 
-**Declaring variables**
-
+**Declaring variables**  
 var meat, bones, food;
 
-**Add Bones**
-
+**Add Bones**  
 bones = "<body> My name is {firstName} {lastName} </body>";
 
-**Add Food**
-
+**Add Food**   
 food = { firstName : "Clint", lastName : "Eastwood"};
 
-**Calling replacement function**
-
+**Calling replacement function**   
 meat = meat.process(bones,food);
 
-**Display results**
-
+**Display results**   
 console.log(meat);
 
-## Bones
-
+## Bones   
 bones = "<body> My name is {firstName} {lastName} </body>";
 
-## Food
-
+## Food   
 food = { 
           firstName : "Clint", 
           lastName : "Eastwood"
       };
 
-## Output
-
+## Output   
 My name is Clint Eastwood
+
+  
