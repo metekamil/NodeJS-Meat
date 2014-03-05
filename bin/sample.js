@@ -12,7 +12,7 @@
     bones = "<body> My name is {firstName} {lastName} </body>";
 
     //Add Food
-    food = { firstName : "Clint", lastName : "Eastwood"};
+    food = { firstName : "Mete", lastName : "Kamil"};
 
      //Calling replacement function
      meat = meat.process(bones,food);
