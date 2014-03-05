@@ -30,8 +30,8 @@ bones ="<body> My name is {firstName} {lastName} </body>";
 
 ## Food   
 food = { 
-          firstName : "Clint", 
-          lastName : "Eastwood"
+          firstName : "Mete", 
+          lastName : "Kamil"
       };
 
 ## Output   
